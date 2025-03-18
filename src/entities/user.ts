@@ -1,14 +1,9 @@
 import { v4 as uuidv4 } from 'uuid';
-
-export enum DocumentType {
-  "CPF",
-  "CNPJ"
-}
-
+import { DocumentType } from './enum/document.type';
 
 export class User { 
 
-    private id: string = uuidv4();  
+    public id: string = uuidv4();  
     
     constructor(
       public readonly fullName: string,
