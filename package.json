@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@types/express": "^5.0.0",
-    "uuid": "^11.1.0",
-    "cpf-cnpj-validator": "^1.0.3"
+    "cpf-cnpj-validator": "^1.0.3",
+    "refatoracao": "file:",
+    "uuid": "^11.1.0"
   }
 }
